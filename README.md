@@ -13,6 +13,6 @@ Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Non
  - **arxiv_filtered_astrophco-23.json** contains filtered astro-ph.CO abstracts from Kaggle Arxiv dataset from 2023, about 1,055 abstracts for testing.
  - **Arxiv_astroph.CO_2023_Q_REF_GEN_ANS_Pairs_testing.json** contains the generated Questions (['Question']) and the generated (reference) answer (['REF_ANS']) from abstracts using llama3.1 as well as the generated answer from the CosmoGemma after fine-tuning (['GEN_ANS']) for the testing sample (1,055 from astro-ph.CO 2023). Here's a random example:
 
-```{'Question': 'Can photometric redshift errors impact constraints on a primordial non-Gaussianity parameter?', 'REF_ANS': 'Yes, they can increase the error by up to 18%.', 'GEN_ANS': 'Yes, large photometric redshift errors can degrade the constraints on this parameter.'}```
+   ```{'Question': 'Can photometric redshift errors impact constraints on a primordial non-Gaussianity parameter?', 'REF_ANS': 'Yes, they can increase the error by up to 18%.', 'GEN_ANS': 'Yes, large photometric redshift errors can degrade the constraints on this parameter.'}```
 
  
