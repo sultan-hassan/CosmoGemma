@@ -14,7 +14,7 @@ Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Non
 
  - **arxiv_astrophco_qa_pairs_2018_2022_finetuning.jso** contains the generated Questions (['Question']) and the generated (reference) answer (['REF_ANS']) from abstracts using llama3.1 for the finetuning sample (3,497 from astro-ph.CO 2018-2022)
 
-  ``` {'Question': 'What type of astrophysical objects are known to have the highest mass-to-light ratios in the Universe?', 'REF_ANS': 'Dwarf spheroidal galaxies'} ```
+   ``` {'Question': 'What type of astrophysical objects are known to have the highest mass-to-light ratios in the Universe?', 'REF_ANS': 'Dwarf spheroidal galaxies'} ```
 
  - **arxiv_astrophco_qa_pairs_2023_testing.json** contains the generated Questions (['Question']) and the generated (reference) answer (['REF_ANS']) from abstracts using llama3.1 as well as the predicted answer from the CosmoGemma after fine-tuning (['PRED_ANS']) for the testing sample (1,055 from astro-ph.CO 2023). Here's a random example:
 
