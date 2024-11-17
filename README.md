@@ -9,6 +9,9 @@ Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Non
 ## Repository Structure
 
  - **QA_dataset_generation.ipynb** a notebook shows all steps to read arxiv data from Kaggle (download the data first from https://www.kaggle.com/datasets/Cornell-University/arxiv), filtering data to select Cosmology and Nongalactic Astrophysics articles (arXiv astro-ph.CO) from 2018-2022 for fine-tuning and from 2023 for testing. Once the dataset is selected, the notebook uses a combination of langchain/langchain_community, and Ollama (both must be first installed) to run llama3.1:8b-instruct-fp16 model to generate QA pair from a given abstract. The full prompt is provided in the notebook. To install langchain/langchain_community, run ```$ pip install langchain langchain_community```, and refer to https://github.com/ollama/ollama to install Ollama.
+
+ - **evaluation_LLM_as_judge.ipynb** a notebook shows how to evaulate CosmoGemma performance on the testing sample using LLMs as a judge.
+ 
  - **arxiv_filtered_astrophco-18-22.json** contains filtered astro-ph.CO abstracts from Kaggle Arxiv dataset from 2018-2022, about 3,497 abstracts for fine-tuning.
  - **arxiv_filtered_astrophco-23.json** contains filtered astro-ph.CO abstracts from Kaggle Arxiv dataset from 2023, about 1,055 abstracts for testing.
 
