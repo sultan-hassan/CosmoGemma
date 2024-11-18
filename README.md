@@ -138,46 +138,6 @@ REF ANSWER:
 PRED ANSWER:
  Yes, it can.
 BLEU SCORE AFTER FINETUNING= 12.703318703865365
-################
-BEFORE FINETUNING 2
-################
-############### EXAMPLE INDEX 2209
-Question:
- What is the main limitation of current semi-analytical schemes to simulate the displacement of CDM?
-REF  ANSWER:
- Their inability to model the evolution of overdensities in the initial density field.
-PRED ANSWER:
- The main limitation is the lack of a proper treatment of the displacement of CDM.
-BLEU SCORE BEFORE FINETUNING= 2.908317710573757
-############### EXAMPLE INDEX 1953
-Question:
- Can using multiple statistical measures simultaneously reduce systematic errors in cosmological parameter estimation?
-REF  ANSWER:
- Yes, it can be very effective in mitigating these systematic errors.
-PRED ANSWER:
- Yes, it can.
-BLEU SCORE BEFORE FINETUNING= 12.703318703865365
-################
-FINETUNIGN STEP 2
-################
-875/875 ━━━━━━━━━━━━━━━━━━━━ 82s 94ms/step - loss: 0.6433 - sparse_categorical_accuracy: 0.5878  
-################
-AFTER FINETUNING 2
-################
-Question:
- What is the main limitation of current semi-analytical schemes to simulate the displacement of CDM?
-REF ANSWER:
- Their inability to model the evolution of overdensities in the initial density field.
-PRED ANSWER:
- The main limitation is the lack of a reliable description of the displacement of CDM.
-BLEU SCORE AFTER FINETUNING= 2.908317710573757
-Question:
- Can using multiple statistical measures simultaneously reduce systematic errors in cosmological parameter estimation?
-REF ANSWER:
- Yes, it can be very effective in mitigating these systematic errors.
-PRED ANSWER:
- Yes, it can.
-BLEU SCORE AFTER FINETUNING= 12.703318703865365
  ```
 
 
