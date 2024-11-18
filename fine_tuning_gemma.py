@@ -1,5 +1,5 @@
 ######################################################################################################################################################
-# Credit this code is a modified version of the following notebook: https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora
+# Credit: this code is a modified version of the following notebook: https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora
 ######################################################################################################################################################                                      
 
 import os
