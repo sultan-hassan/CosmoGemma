@@ -6,6 +6,11 @@ This repository contains all codes used to develop CosmoGemma,which is a project
 
 Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Nongalactic Astrophysics articles (arXiv astro-ph.CO) from 2018-2022 and tested on QA pairs (1k) generated from 2023 articles, scoring over 75% accuracy.
 
+
+#We fine-tune Gemma models using LoRA: Low-Rank Adaptation of Large Language Model (see https://arxiv.org/abs/2106.09685) using 
+
+
+
 ## Repository Structure
 
  - **QA_dataset_generation.ipynb** a notebook shows all steps to read arxiv data from Kaggle (download the data first from https://www.kaggle.com/datasets/Cornell-University/arxiv), filtering data to select Cosmology and Nongalactic Astrophysics articles (arXiv astro-ph.CO) from 2018-2022 for fine-tuning and from 2023 for testing. Once the dataset is selected, the notebook uses a combination of langchain/langchain_community, and Ollama (both must be first installed) to run llama3.1:8b-instruct-fp16 model to generate QA pair from a given abstract. The full prompt is provided in the notebook. To install langchain/langchain_community, run ```$ pip install langchain langchain_community```, and refer to https://github.com/ollama/ollama to install Ollama.
