@@ -4,11 +4,7 @@ This repository contains all codes used to develop CosmoGemma,which is a project
 
 ## What is CosmoGemma?
 
-Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Nongalactic Astrophysics articles (arXiv astro-ph.CO) from 2018-2022 and tested on QA pairs (1k) generated from 2023 articles, scoring over 75% accuracy.
-
-
-#We fine-tune Gemma models using LoRA: Low-Rank Adaptation of Large Language Model (see https://arxiv.org/abs/2106.09685) using 
-
+Gemma_2b_en fine-tuned model on QA pairs (3.5k) generated from Cosmology and Nongalactic Astrophysics articles (arXiv astro-ph.CO) from 2018-2022 and tested on QA pairs (1k) generated from 2023 articles, scoring over 75% accuracy. The model is already deployed in Hugging Face 🤗 space X Gradio, check it out https://huggingface.co/spaces/sultan-hassan/cosmology-expert.
 
 
 ## Repository Structure
