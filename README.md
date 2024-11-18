@@ -1,6 +1,6 @@
 # CosmoGemma: Enhancing Research Productivity in Cosmology using Gemma
 
-This repository contains all codes used to develop CosmoGemma,which is a project as a part of KaggleX Fellowship Program (Cohort 4): https://www.kaggle.com/kagglex.
+This repository contains all codes/data used to develop CosmoGemma, which is a project as a part of KaggleX Fellowship Program (Cohort 4): https://www.kaggle.com/kagglex.
 
 ## What is CosmoGemma?
 
